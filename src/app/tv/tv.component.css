@@ -1,0 +1,19 @@
+#card-img{
+    height: 80%;
+    width: 100%;
+    padding: 20px;
+}
+.row {
+    --bs-gutter-x: 0rem;
+  }
+
+
+#btn{
+    background-color: rgb(70, 70, 255);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 10%;
+    margin-right: 70px;
+  }

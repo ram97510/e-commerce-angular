@@ -1,0 +1,113 @@
+.card {
+    height: 26rem;
+    width: 17rem;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+    border-radius: 0.75rem;
+  }
+
+
+  drag-scroll {
+    height: 500px;
+    width: 100%;
+    
+  }
+  #btn{
+    background-color: rgb(70, 70, 255);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    padding: 5px;
+    border-radius: 10%;
+    margin-right: 70px;
+  }
+  #card-img{
+    padding: 30px;
+  }
+
+  /* #speaker-img{
+    height: 80%;
+    width: 80%;
+  } */
+
+  @media only screen and (max-width: 1000px) {
+    .card {
+      height: 23rem;
+      width: 14rem;
+      border-radius: 0.75rem;
+    }
+
+    drag-scroll {
+      height: 400px;
+      width: 100%;
+    }
+    .h4{
+      font-size: 17px;
+    }
+    .h5{
+      font-size: 15px;
+    }
+    #btn{
+        width: 55px;
+        height: 27px;
+        font-size: 10px;
+      }
+      #card-img{
+        padding: 25px;
+      }
+  }
+  @media only screen and (max-width: 700px) {
+    .card {
+      height: 17rem;
+      width: 10rem;
+      border-radius: 0.75rem;
+    }
+
+    drag-scroll {
+      height: 300px;
+      width: 100%;
+    }
+    .h4{
+      font-size: 15px;
+    }
+    .h5{
+      font-size: 13px;
+    }
+    #btn{
+        width: 50px;
+        height: 25px;
+        font-size: 10px;
+      }
+      #card-img{
+        padding: 20px;
+      }
+  }
+  @media only screen and (max-width: 600px) {
+    .card {
+      height: 10rem;
+      width: 6rem;
+      border-radius: 0.75rem;
+    }
+
+    drag-scroll {
+      height: 200px;
+      width: 100%;
+    }
+    .h4{
+      font-size: 8px;
+    }
+    .h5{
+      font-size: 7px;
+    }
+    #btn{
+        /* padding: 1px; */
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+      }
+      #card-img{
+        padding: 10px;
+      }
+  }

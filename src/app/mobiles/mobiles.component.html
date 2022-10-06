@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-end mt-3">
+	<button id="btn" routerLink="">back</button>
+</div>
+<div class="row gap-3 mt-4 mb-4 justify-content-center">
+	<div class="col-xs-4 col-sm-4 col-md-3 col-lg-2" *ngFor="let mobile of mobiles">
+		<div class="card">
+			<img class="card-img-top" [src]="mobile.pic" alt="Card image cap">
+			<div class="card-body">
+				<h5 class="card-title h4">{{mobile.name}}</h5>
+				<p class="card-text h5">{{mobile.color}} <br> ₹{{mobile.price}}</p>
+				<a [routerLink]="['mobileview',mobile.id]" class="btn btn-primary">View</a>
+			</div>
+		</div>
+	</div>
+</div>

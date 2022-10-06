@@ -1,0 +1,52 @@
+<!-- <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+    <div class="top">
+        <div class="full-left col-sm-7 col-md-7">
+            <div class="top-middle col-sm-8">
+                <img [src]="mobileAccs[0].pic" height="100%" width="100%" class="">
+            </div>
+            {{mobileAccs[0].name}}
+        </div>
+    </div>
+</div> -->
+
+<div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
+    <div class="top">
+        <div class="full-left col-sm-7 col-md-7">
+            <div class="top-left col-sm-4">
+                <img [src]="mobileAccsdata[0].pic" height="50%" width="100%"><br>
+                <img [src]="mobileAccsdata[0].pic" height="50%" width="100%">
+            </div>
+            <div class="top-middle col-sm-8">
+                <img [src]="mobileAccsdata[0].pic" height="100%" width="100%" class="">
+            </div>
+        </div>
+        <div class="top-right container col-sm-5 col-md-5">
+            <h1>{{mobileAccsdata[0].name}}</h1>
+            <p>{{mobileAccsdata[0].color}}</p>
+            <h1>₹{{mobileAccsdata[0].price}}</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4 mb-4">
+    <h3 class="text-center">Available offers</h3><br>
+    <div class="offer-text">
+        <span class="offer">
+            <img [src]="tagimg" height="20px" width="20px">
+            Bank Offer10% off on Axis Bank Credit Card and Credit Card EMI Txns, up to ₹1500. On orders of ₹5000 and
+            aboveT&C </span><br><br>
+
+        <span class="offer">
+            <img [src]="tagimg" height="20px" width="20px">
+            Bank Offer10% off on ICICI Bank Credit Cards (incl. EMI Txns), up to ₹1,500. On orders of ₹5,000 and
+            aboveT&C </span><br><br>
+
+        <span class="offer">
+            <img [src]="tagimg" height="20px" width="20px">
+            Bank Offer8% off on Flipkart Axis Bank Credit Card, up to ₹1500. On orders of ₹5000 and aboveT&C</span><br><br>
+
+        <span class="offer">
+            <img [src]="tagimg" height="20px" width="20px">
+            Special PriceExtra ₹10500 off(price inclusive of discount)T&C</span>
+    </div>
+</div>

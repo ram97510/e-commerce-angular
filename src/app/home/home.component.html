@@ -1,0 +1,70 @@
+<div class="d-flex mt-3 mb-3 justify-content-between container">
+    <h3>Mobiles</h3>
+    <button id="btn" routerLink="mobiles">ViewAll</button>
+</div>
+
+<drag-scroll class="container ">
+    <div *ngFor="let mobile of mobiles" drag-scroll-item>
+        <div class="card shadow">
+            <img [src]="mobile.pic" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title h4">{{mobile.name}}</h5>
+                <p class="card-text h5">{{mobile.color}} <br> ₹{{mobile.price}}</p>
+            </div>
+        </div>
+    </div>
+</drag-scroll>
+
+<div class="d-flex mb-3 justify-content-between container">
+    <h3>Mobile Accessories</h3>
+    <button id="btn" routerLink="mob-accs">ViewAll</button>
+</div>
+
+<drag-scroll class="container ">
+    <div *ngFor="let Accs of mobileAccs1" drag-scroll-item>
+        <div class="card shadow">
+            <img [src]="Accs.pic" class="card-img-top " id="card-img" style="width: 100%;height: 100%" />
+            <div class="card-body">
+                <h5 class="card-title h4">{{Accs.name}}</h5>
+                <p class="card-text h5">{{Accs.color}} <br> ₹{{Accs.price}}</p>
+            </div>
+        </div>
+    </div>
+</drag-scroll>
+
+<div class="d-flex mb-3 justify-content-between container">
+    <h3>Speakers</h3>
+    <button id="btn" routerLink="speakers">ViewAll</button>
+</div>
+
+<drag-scroll class="container">
+
+    <div *ngFor="let speaker of speakers1" drag-scroll-item>
+        <div class="card shadow">
+            <img [src]="speaker.pic" alt="" class="card-img-top" id="card-img" style="width: 95%;height: 70%">
+            <div class="card-body">
+                <h5 class="card-title h4">{{speaker.name}}</h5>
+                <p class="card-text h5">{{speaker.price}}</p>
+            </div>
+        </div>
+    </div>
+
+</drag-scroll>
+
+
+<div class="d-flex mb-3 justify-content-between container">
+    <h3>Televisons</h3>
+    <button id="btn" routerLink="tv">ViewAll</button>
+</div>
+
+<drag-scroll class="container ">
+    <div *ngFor="let tv of televison1" drag-scroll-item>
+        <div class="card shadow">
+            <img [src]="tv.pic" class="card-img-top " id="card-img" style="width: 100%;height: 100%" />
+            <div class="card-body">
+                <h5 class="card-title h4">{{tv.name}}</h5>
+                <p class="card-text h5">{{tv.color}} <br> ₹{{tv.price}}</p>
+            </div>
+        </div>
+    </div>
+</drag-scroll>
